@@ -1,0 +1,11 @@
+<template name="home">
+	<h2>View Call Info</h2>
+		{{#each callList}}
+		<ul>
+		 	<li>{{this.Called}}</li>
+		 	<li>{{this.From}}</li>
+		 	<li>{{this.CallStatus}}</li>
+		 	<li><audio src="{{this.RecordingUrl}}" preload="auto" controls> </audio></li>
+		 </ul>
+		 {{/each}}
+</template>
