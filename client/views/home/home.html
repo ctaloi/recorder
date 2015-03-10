@@ -1,11 +1,31 @@
 <template name="home">
-	<h2>View Call Info</h2>
-		{{#each callList}}
-		<ul>
-		 	<li>{{this.Called}}</li>
-		 	<li>{{this.From}}</li>
-		 	<li>{{this.CallStatus}}</li>
-		 	<li><audio src="{{this.RecordingUrl}}" preload="auto" controls> </audio></li>
-		 </ul>
-		 {{/each}}
+  {{#if currentUser}}
+    {{>loggedIn}}
+  {{else}}
+    {{> guest}}
+  {{/if}}
+</template>
+
+<template name="loggedIn">
+	{{>callList}}
+</template>
+
+<template name="guest">
+	<div class="content">
+		<main class="ui page grid">
+			<div class="row">
+			<div class="two column">
+				{{>logoHead}}
+				{{>atForm}}
+			</div>
+			</div>
+		</main>
+	</div>
+</template>
+
+<template name="logoHead">
+	<h2 class="ui center aligned icon header">
+	  <i class="circular sound icon"></i>
+  		network WCS Call Recorder
+	</h2>
 </template>

@@ -5,5 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-insecure
 iron:router
+semantic:ui-css
+useraccounts:semantic-ui
+accounts-password
+msavin:mongol
+matb33:collection-hooks
+mrt:moment

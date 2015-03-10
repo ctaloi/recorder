@@ -1,0 +1,2310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"else",
+				"else if()"
+			],
+			[
+				"int",
+				"input_filename"
+			],
+			[
+				"get",
+				"get_input	function"
+			],
+			[
+				"in",
+				"input_numbers	statement"
+			],
+			[
+				"input_",
+				"input_filename	statement"
+			],
+			[
+				"env",
+				"environ"
+			],
+			[
+				"E",
+				"ERROR	statement"
+			],
+			[
+				"Mete",
+				"Meteor"
+			],
+			[
+				"find",
+				"find	Meteor: collection.find(selector, [options])"
+			],
+			[
+				"min",
+				"min_id	statement"
+			],
+			[
+				"debug",
+				"DEBUG	statement"
+			],
+			[
+				"WAR",
+				"WARNING	statement"
+			],
+			[
+				"que",
+				"query_papertrail	function"
+			],
+			[
+				"sys",
+				"system_id	param"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"he",
+				"helpers	Meteor: Template.myTemplate.helpers(helpers)"
+			],
+			[
+				"su",
+				"subscribe"
+			],
+			[
+				"even",
+				"events	Meteor: Template.myTemplate.events(eventMap)"
+			],
+			[
+				"qui",
+				"quickbase"
+			],
+			[
+				"ticket",
+				"ticket_status	statement"
+			],
+			[
+				"WA",
+				"WARNING	statement"
+			],
+			[
+				"war",
+				"warning	function"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"node",
+				"node_record	statement"
+			],
+			[
+				"qu",
+				"quickbaseTickets"
+			],
+			[
+				"quic",
+				"QuickbaseTickets"
+			],
+			[
+				"ti",
+				"ticket_status	statement"
+			],
+			[
+				"tic",
+				"ticket_status"
+			],
+			[
+				"la",
+				"last_update	statement"
+			],
+			[
+				"pri",
+				"priority	statement"
+			],
+			[
+				"pro",
+				"priority"
+			],
+			[
+				"drop",
+				"drop_quickbase_tickets	function"
+			],
+			[
+				"quick",
+				"quickbase_tickets"
+			],
+			[
+				"en",
+				"engineering_tickets	statement"
+			],
+			[
+				"sol",
+				"solarwindsDownsNodes"
+			],
+			[
+				"all",
+				"all_nodes	statement"
+			],
+			[
+				"offline",
+				"offline_nodes	statement"
+			],
+			[
+				"dial",
+				"dial_number	param"
+			],
+			[
+				"for",
+				"format	function"
+			],
+			[
+				"form",
+				"format_dialed_number	function"
+			],
+			[
+				"exte",
+				"except	keyword"
+			],
+			[
+				"dia",
+				"dial_number	param"
+			],
+			[
+				"ex",
+				"extension"
+			],
+			[
+				"cred",
+				"credentials"
+			],
+			[
+				"Ke",
+				"KeyError	class"
+			],
+			[
+				"cl",
+				"clickToCall	function"
+			],
+			[
+				"login_co",
+				"login_cookie"
+			],
+			[
+				"Se",
+				"Session.set	Meteor: Session.set(key, value)"
+			],
+			[
+				"click",
+				"clickToCall"
+			],
+			[
+				"ev",
+				"events	Meteor: Template.myTemplate.events(eventMap)"
+			],
+			[
+				"call",
+				"callGroups"
+			],
+			[
+				"err",
+				"errorThrown"
+			],
+			[
+				"fom",
+				"format	function"
+			],
+			[
+				"clear",
+				"clearsession"
+			],
+			[
+				"url",
+				"url_for	import"
+			],
+			[
+				"called",
+				"called_number"
+			],
+			[
+				"m",
+				"method	Attr"
+			],
+			[
+				"K",
+				"KeyError	class"
+			],
+			[
+				"calle",
+				"called_number"
+			],
+			[
+				"fal",
+				"fallback_count"
+			],
+			[
+				"fa",
+				"fallback_count"
+			],
+			[
+				"app",
+				"appendTo	.appendTo()"
+			],
+			[
+				"tx",
+				"text	.text()"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"json",
+				"jsonify	statement"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"a",
+				"ajax	$.ajax()"
+			],
+			[
+				"cdr_",
+				"cdr_results"
+			],
+			[
+				"task",
+				"task_id	statement"
+			],
+			[
+				"tak",
+				"task_id	statement"
+			],
+			[
+				"ta",
+				"task_id"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tog",
+				"toggle	.toggle()"
+			],
+			[
+				"cell",
+				"cellspacing	Attr"
+			],
+			[
+				"ph",
+				"phone_number	param"
+			],
+			[
+				"c",
+				"cnam_form	class"
+			],
+			[
+				"pa",
+				"payload	statement"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"rec",
+				"record_type	(local, instance)"
+			],
+			[
+				"reco",
+				"records	(local, instance)"
+			],
+			[
+				"re",
+				"record_type	(local, instance)"
+			],
+			[
+				"out",
+				"output_list	(local, instance)"
+			],
+			[
+				"outp",
+				"output_list	(global, instance)"
+			],
+			[
+				"cal",
+				"call_record	(local, instance)"
+			],
+			[
+				"q",
+				"query	(local, instance)"
+			],
+			[
+				"get_b",
+				"get_bulk_request	(global, function)"
+			],
+			[
+				"file",
+				"filename	(local, instance)"
+			],
+			[
+				"Di",
+				"DictReader	(imported, class)"
+			],
+			[
+				"n",
+				"next"
+			],
+			[
+				"proc",
+				"process_translation(raw_result)	(global, function)"
+			],
+			[
+				"sear",
+				"search_form"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"d",
+				"def	Function"
+			],
+			[
+				"par",
+				"parser"
+			],
+			[
+				"fl",
+				"fl_dsi	(global, function)"
+			],
+			[
+				"ny",
+				"ny_sbc	(global, function)"
+			],
+			[
+				"h",
+				"hostname"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"p",
+				"param	(local, instance)"
+			],
+			[
+				"add",
+				"add_argument(args, kwargs)	(attribute, function)"
+			],
+			[
+				"RE",
+				"response	(local, instance)"
+			],
+			[
+				"def",
+				"def	(keyword, instance)"
+			],
+			[
+				"pres",
+				"presence"
+			],
+			[
+				"se",
+				"session_count"
+			],
+			[
+				"tru",
+				"trunk_name"
+			],
+			[
+				"sess",
+				"session_count	(global, instance)"
+			],
+			[
+				"per",
+				"peer_ip	(global, instance)"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"peer_",
+				"peer_ip"
+			],
+			[
+				"type",
+				"type"
+			],
+			[
+				"act",
+				"activities"
+			],
+			[
+				"activ",
+				"Activity"
+			],
+			[
+				"get_",
+				"get_user_profile"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"user_",
+				"user_id"
+			],
+			[
+				"get_de",
+				"get_device_info"
+			],
+			[
+				"info",
+				"device_info"
+			],
+			[
+				"ty",
+				"type	type"
+			],
+			[
+				"hist_",
+				"hist_quote"
+			],
+			[
+				"hist",
+				"hist_quote"
+			],
+			[
+				"my",
+				"my_list"
+			],
+			[
+				"ac",
+				"activity"
+			],
+			[
+				"fitb",
+				"fitbit_keys"
+			],
+			[
+				"my_",
+				"my_list"
+			],
+			[
+				"grap",
+				"graph"
+			],
+			[
+				"the",
+				"the_data"
+			],
+			[
+				"w",
+				"watch_for"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "both/collections.js",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/publish.js",
+			"settings":
+			{
+				"buffer_size": 65,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/methods.js",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": " \"_id\": \"AApucd4abSDP7b22s\",\n  \"AccountSid\": \"ACcee2e29cc3cdc7a9e81408bab2e63dd7\",\n  \"ToZip\": \"13202\",\n  \"FromState\": \"NY\",\n  \"DialSipResponseCode\": \"200\",\n  \"Called\": \"+13153145511\",\n  \"FromCountry\": \"US\",\n  \"CallerCountry\": \"US\",\n  \"CalledZip\": \"13202\",\n  \"Direction\": \"inbound\",\n  \"FromCity\": \"SYRACUSE\",\n  \"CalledCountry\": \"US\",\n  \"DialSipCallId\": \"231837ef859f47649fb7b03778d5cba6@0.0.0.0\",\n  \"CallerState\": \"NY\",\n  \"DialCallDuration\": \"6\",\n  \"CallSid\": \"CAbf3eef65980840a284a65e2316e789a1\",\n  \"CalledState\": \"NY\",\n  \"From\": \"+13155694033\",\n  \"CallerZip\": \"13215\",\n  \"FromZip\": \"13215\",\n  \"CallStatus\": \"completed\",\n  \"DialCallSid\": \"CAe6f0fc77267046e03870f364374991e7\",\n  \"ToCity\": \"SYRACUSE\",\n  \"ToState\": \"NY\",\n  \"RecordingUrl\": \"http://api.twilio.com/2010-04-01/Accounts/ACcee2e29cc3cdc7a9e81408bab2e63dd7/Recordings/RE953513a0926fb52d64441083e4f000b2\",\n  \"To\": \"+13153145511\",\n  \"ToCountry\": \"US\",\n  \"DialCallStatus\": \"completed\",\n  \"RecordingDuration\": \"6\",\n  \"CallerCity\": \"SYRACUSE\",\n  \"ApiVersion\": \"2010-04-01\",\n  \"Caller\": \"+13155694033\",\n  \"CalledCity\": \"SYRACUSE\",\n  \"RecordingSid\": \"RE953513a0926fb52d64441083e4f000b2\"\n}",
+			"settings":
+			{
+				"buffer_size": 1139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "both/router.js",
+			"settings":
+			{
+				"buffer_size": 899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/home/home.html",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/masthead/masthead.html",
+			"settings":
+			{
+				"buffer_size": 1598,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"move",
+				"Origami: Move File to Pane Below"
+			],
+			[
+				"org",
+				"Origami: Create Pane Below"
+			],
+			[
+				"emme",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"snip",
+				"Snippet: bs3-container"
+			],
+			[
+				"ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"synt html",
+				"Set Syntax: HTML"
+			],
+			[
+				"orig left",
+				"Origami: Create Pane on the Left"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"orig",
+				"Origami: Create Pane Below"
+			],
+			[
+				"if",
+				"Snippet: if … else"
+			],
+			[
+				"theme",
+				"Themr: Next theme"
+			],
+			[
+				"theme ",
+				"Themr: Toggle Theme Settings"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"them",
+				"Themr: Next theme"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"orig ri",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"color p",
+				"Color Picker"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"filter",
+				"Filter Lines: Fold With String"
+			],
+			[
+				"i",
+				"Open in terminal"
+			],
+			[
+				"or",
+				"Origami: Create Pane Below"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"emm",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ori",
+				"Origami: Create Pane Below"
+			],
+			[
+				"ori cre",
+				"Origami: Create Pane Below"
+			],
+			[
+				"bs3 table",
+				"Snippet: bs3-table-hover"
+			],
+			[
+				"bs3 jum",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"bs3 bre",
+				"Snippet: bs3-breadcrumbs"
+			],
+			[
+				"bs3 brea",
+				"Snippet: bs3-button-group-vertical"
+			],
+			[
+				"bs3 nav",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"page header",
+				"Snippet: bs3-page header"
+			],
+			[
+				"bs3 page",
+				"Snippet: bs3-pager-aligned"
+			],
+			[
+				"bs3 head",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"col",
+				"Snippet: ui-left-corner-label"
+			],
+			[
+				"bs3 i",
+				"Snippet: bs3-icon"
+			],
+			[
+				"panel hea",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"panel",
+				"Snippet: bs3-panel-footer"
+			],
+			[
+				"pane",
+				"Snippet: bs3-panel"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"reanm",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"rea",
+				"File: Rename"
+			],
+			[
+				"ori cr",
+				"Origami: Create Pane Below"
+			],
+			[
+				"orig cre bel",
+				"Origami: Create Pane with File Below"
+			],
+			[
+				"ori mo",
+				"Origami: Move File to Pane Below"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rean",
+				"File: Rename"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"it",
+				"Open in terminal"
+			],
+			[
+				"ori right",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"ori righ",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"col-6",
+				"Snippet: bs3-col-6"
+			],
+			[
+				"bs3-col",
+				"Snippet: bs3-col-6"
+			],
+			[
+				"meteor helper",
+				"Snippet: Meteor: Template.myTemplate.helpers(helpers)"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bs3 but",
+				"Snippet: bs3-mini-button"
+			],
+			[
+				"bs3 butt",
+				"Snippet: bs3-button"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"gist pr",
+				"Gist: Create Private Gist"
+			],
+			[
+				"iter",
+				"Open in terminal"
+			],
+			[
+				"file",
+				"Sublime Files: Open Navigator"
+			],
+			[
+				"table",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"pack rem",
+				"Package Control: Remove Channel"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"sni doc",
+				"Snippet: document.ready - $(function(){})"
+			],
+			[
+				"doc	",
+				"Git: Document Selection"
+			],
+			[
+				"snip doc",
+				"Snippet: document.ready - $(function(){})"
+			],
+			[
+				"reane",
+				"File: Rename"
+			],
+			[
+				"rname",
+				"File: Rename"
+			],
+			[
+				"emme wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"bs3 ",
+				"Snippet: bs3-badge"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"colo",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"sni",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snipp main",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"jin",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"button",
+				"Snippet: ui-button"
+			],
+			[
+				"form",
+				"Snippet: bs3-form"
+			],
+			[
+				"ui form ",
+				"Snippet: ui-form-input"
+			],
+			[
+				"ui form",
+				"Snippet: ui-form"
+			],
+			[
+				"ui grid",
+				"Snippet: ui-grid"
+			],
+			[
+				"sni script",
+				"Snippet: Bootstrap scripts reference"
+			],
+			[
+				"ui html",
+				"Snippet: ui-three-column-relaxed-grid"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"bs3 list",
+				"Snippet: bs3-list-group"
+			],
+			[
+				"bs3 form",
+				"Snippet: bs3-form"
+			],
+			[
+				"bs3 bitt",
+				"Snippet: bs3-mini-button-default"
+			],
+			[
+				"bs3 hea",
+				"Snippet: bs3-panel-heading"
+			],
+			[
+				"bs3 well",
+				"Snippet: bs3-well-lg"
+			],
+			[
+				"jinja",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-page header"
+			],
+			[
+				"sni html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ori create eft",
+				"Origami: Create Pane with File on the Left"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"orig des",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"reanme",
+				"File: Rename"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"brack tog",
+				"BracketHighlighter: Toggle Global Enable"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"jinj",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"main",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"#!",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 570.0
+	},
+	"console":
+	{
+		"height": 265.0,
+		"history":
+		[
+			"cle",
+			"clread",
+			"~~",
+			"import num",
+			"console.clear()",
+			"cons",
+			"clear()",
+			"print()",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Chris/Desktop/recorder",
+		"/Users/Chris/Desktop/recorder/both",
+		"/Users/Chris/Desktop/recorder/client",
+		"/Users/Chris/Desktop/recorder/client/views",
+		"/Users/Chris/Desktop/recorder/client/views/home",
+		"/Users/Chris/Desktop/recorder/client/views/masthead",
+		"/Users/Chris/Desktop/recorder/server"
+	],
+	"file_history":
+	[
+		"/Users/Chris/Downloads/100000A.TRC.txt",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/widgets.html",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/web.cordova/app/client/views/solarwinds/template.solarwindsEvents.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/web.browser/app/client/views/solarwinds/template.solarwindsEvents.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/web.cordova/app/client/views/solarwinds/solarwindsEvents.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/web.browser/app/client/views/solarwinds/solarwindsEvents.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/animate.css/source/sliding_exits/slideOutLeft.css",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/animate.css/source/sliding_exits/slideOutDown.css",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/subscriptions.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/style.css",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/extensionStatus/extensionStatus.html",
+		"/Users/Chris/Desktop/recorder/recorder.css",
+		"/Users/Chris/Desktop/recorder/recorder.html",
+		"/Users/Chris/Dropbox/Public/xml/ac-record.xml",
+		"/Users/Chris/Dropbox/Projects/wcs_whammer/config.codekit",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/js/gauge.min.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/public/pending.svg",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/js/justgage.1.0.1.min.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/js/raphael.2.1.0.min.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/bower.json",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/variable.scss",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/materialize/.bower.json",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/materialize/sass/components/_variables.scss",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/solarwinds/solarwindsEvents.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/helpers.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickbase/quickbase.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickbase/quickbase.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/_variable.scss",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/materialize/sass/extend.scss",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/scss/style.sass",
+		"/Users/Chris/Desktop/did.csv",
+		"/Users/Chris/Dropbox/Projects/WCS_openCnam/20150225.csv",
+		"/Users/Chris/Dropbox/Projects/WCS_openCnam/RESULT_chris_cell.csv",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/sidebar/sidebar.js",
+		"/Users/Chris/Dropbox/Projects/WCS_openCnam/RESULT_daja.csv",
+		"/Users/Chris/Dropbox/Projects/wcs/wcs_standard_routing/tf_load.csv",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/apps/engineering.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/solarwinds/downNodes.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickbase/quickbaseOrders.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/solarwinds/solarwindsEvents.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_python/wcs_corp/push_engineering_orders.py",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_python/wcs_corp/push_engineering_tickets.py",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/server/publish.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/both/collections.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/apps/engineering.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickbase/quickbaseOrders.js",
+		"/Users/Chris/Desktop/tmp.csv",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickbase/quickbase.coffee",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/extensions/extensionStatus.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/client.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/navbar.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/extensions/extensionStatus.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/main.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/font-awesome/less/larger.less",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/js/livestamp.js",
+		"/Users/Chris/Desktop/wcs-statusboard/misc/push.py",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/solarwinds/downNodes.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/both/routes.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/packages/iron_router.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_python/wcs_corp/push_down_nodes.py",
+		"/Users/Chris/Desktop/wcs-statusboard/readme.md",
+		"/Users/Chris/Desktop/wcs-statusboard/run.sh",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/cordova-build/platforms/firefoxos/cordova/node_modules/shelljs/scripts/run-tests.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/cordova-build/plugins/org.apache.cordova.file/www/blackberry10/readEntries.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/npm/webapp/node_modules/connect/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-readable-non-empty-end.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/npm/iron:router/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/npm/http/node_modules/request/node_modules/form-data/Readme.md",
+		"/Users/Chris/Dropbox/Notes/excel_scratch.md",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/overflow/overflow.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/makatiRepair/makatiRepair.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/floridaRepair/floridaRepair.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/engineering/engineering.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/head.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/loading/loading.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/router/router.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/widgetHelpers.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/server/common.js",
+		"/Users/Chris/Desktop/wcs-statusboard/misc/watch_calls.py",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/engineeringTicketsParked.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/solarwindsOutages.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/voipCallCounts.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/loading",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/papertrail/papertrail.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/internalCallCount.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/engineeringTickets.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/callGroupHelpers.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/header.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets/voipCallCounts.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/widgets",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/hud/hud.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/papertrail/papertrail.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/npm/minifiers/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/Chris/Desktop/wcs-statusboard/misc/mong_dockerfile",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/libs/livestamp.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/bootstrap/less/labels.less",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/build/programs/server/packages/iron_layout.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_python/wcs_corp/push_papertrail.py",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/config/env.sh",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/scratch.md",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/packages",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/layout.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/callGroups.html",
+		"/Users/Chris/Dropbox/Projects/wcs/silhouette_epi_cli/silhouette_epi.py",
+		"/Users/Chris/Dropbox/Projects/wcs/silhouette_epi_cli/nci_testing.py",
+		"/Users/Chris/Dropbox/Projects/wcs/silhouette_epi_cli/tenants.txt",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/hud/hud.coffee",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/quickBase/quickbase.coffee",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/callGroups/callGroups.js",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups/makatiRepair/makatiRepair.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups/overflow/overflow.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups/floridaRepair/floridaRepair.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups/engineering/engineering.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups/callGroups.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/views/toggle.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/layout.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/solarwinds.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/extensionStatus.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/quickbase.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/callGroups.html",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/today.coffee",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/timeline.css",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/style/sb-admin-theme.css",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/client/templates/today.html",
+		"/Users/Chris/Downloads/backup9CADEFA00130-2.xml",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.bowerrc",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/versions",
+		"/Users/Chris/Desktop/wcs-statusboard/statusboard_meteor/statusboard/.meteor/local/bower/DataTables/.bower.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"order",
+			"m6",
+			"interfaces",
+			"m4",
+			"._str",
+			"div",
+			"ul",
+			"h4",
+			" m12 l12",
+			"l6",
+			"3px",
+			"s6",
+			"z-depth-2  ",
+			"s4",
+			"Ticket",
+			"ticketOpenCount",
+			"numberOrders",
+			"flow-text",
+			"white-text",
+			"blue-grey ",
+			"widget",
+			"material",
+			"toast",
+			"events",
+			"batch_start",
+			"ROUTE",
+			"filename",
+			"m6",
+			"<h6>",
+			"white",
+			"ticket",
+			"tickets",
+			"m3",
+			"l3",
+			"s3",
+			"light",
+			"171",
+			"150, ",
+			"span",
+			"div",
+			"col-md-2",
+			"h4",
+			"<h6>QuickBase Ticket# </h6>",
+			"p",
+			"'",
+			"upsert",
+			"<",
+			"each",
+			"fa-5x",
+			"ERROR",
+			"DEBUG",
+			"fa-5x",
+			"<div class=\"col-md-4 col-sm-6\">",
+			"md-3",
+			"panel panel-primary",
+			"automobile",
+			"green",
+			"<div class=\"col-md-3 col-sm-6\">",
+			"nyc",
+			"NYC",
+			"nyc",
+			"nyCount",
+			"each",
+			"messages",
+			"events",
+			"msg",
+			"SolarwindsNodes",
+			"DEBUG",
+			"WARNING",
+			"INFO",
+			"input",
+			"solarwinds_nodes",
+			"DEBUG",
+			"6600",
+			"MAC",
+			"67.246.",
+			"66.218",
+			"h4",
+			"col-md-3",
+			"bluetooth",
+			"col-xs-6",
+			".hidden-xs",
+			"col-xs-6",
+			"solarwindsDownCount",
+			"outageCount",
+			"OutageCount",
+			"numComments",
+			"a",
+			"span",
+			"customer_notes",
+			"tech_logs",
+			"2",
+			"div",
+			"h6",
+			"col-lg-3",
+			"h4",
+			"ul",
+			"col-lg-2",
+			"span",
+			"button",
+			"5",
+			"drop_solarwinds_nodes",
+			"WARNING",
+			"INFO",
+			"DEBUG",
+			"root",
+			"nodes_down",
+			"sola",
+			"Outages",
+			"SolarwindsNodes",
+			"o    ",
+			"·         ",
+			"col-lg-4",
+			"col-md-3",
+			"all_nodes",
+			"nodes_down",
+			"push_down_nodes",
+			"get_down_nodes",
+			"offline_nodes",
+			"down_store",
+			"down_nodes",
+			"()\n",
+			"dialed_number",
+			"\n				",
+			"huge",
+			"auth",
+			"this",
+			"default"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"42_ALTSYR_NYC_001_SIP",
+			",",
+			"'",
+			"ATTEMPT,GSX2-1",
+			"varchar",
+			"index",
+			"Contact",
+			"Graph"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "both/collections.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/publish.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/methods.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "both/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								765,
+								765
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/views/home/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/views/masthead/masthead.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1598,
+								1598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.243552322836,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 174.0
+	},
+	"output.exec":
+	{
+		"height": 86.0
+	},
+	"output.find_results":
+	{
+		"height": 114.0
+	},
+	"output.git":
+	{
+		"height": 108.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.vagrant":
+	{
+		"height": 114.0
+	},
+	"project": "recordersublime-project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"solar",
+				"client/views/solarwinds/downNodes.html"
+			],
+			[
+				"style",
+				"client/style/style.css"
+			],
+			[
+				"help",
+				"statusboard_meteor/statusboard/client/helpers.js"
+			],
+			[
+				"main",
+				"statusboard_meteor/statusboard/client/views/main.html"
+			],
+			[
+				"nav",
+				"statusboard_meteor/statusboard/client/views/navbar.html"
+			],
+			[
+				"rout",
+				"statusboard_meteor/statusboard/lib/routes.js"
+			],
+			[
+				"wid",
+				"statusboard_meteor/statusboard/client/views/widgets/widgets.html"
+			],
+			[
+				"router",
+				"statusboard_meteor/statusboard/client/router/router.js"
+			],
+			[
+				"pap",
+				"statusboard_meteor/statusboard/client/views/papertrail/papertrail.html"
+			],
+			[
+				"today",
+				"statusboard_meteor/statusboard/client/templates/today.html"
+			],
+			[
+				"lay",
+				"statusboard_meteor/statusboard/client/templates/layout.html"
+			],
+			[
+				"tod",
+				"statusboard_meteor/statusboard/client/templates/today.html"
+			],
+			[
+				"qui",
+				"statusboard_meteor/statusboard/client/templates/quickbase.html"
+			],
+			[
+				"sola",
+				"client/templates/solarwinds.html"
+			],
+			[
+				"css",
+				"statusboard_meteor/statusboard/client/style/style.css"
+			],
+			[
+				"sol",
+				"statusboard_meteor/statusboard/client/templates/solarwinds.html"
+			],
+			[
+				"quick",
+				"statusboard_meteor/statusboard/client/templates/quickbase.html"
+			],
+			[
+				"views",
+				"views.py"
+			],
+			[
+				"tral",
+				"templates/translation.html"
+			],
+			[
+				"route",
+				"templates/standard_route.html"
+			],
+			[
+				"cdr",
+				"templates/cdr.html"
+			],
+			[
+				"home",
+				"templates/home.html"
+			],
+			[
+				"layou",
+				"templates/layout.html"
+			],
+			[
+				"test",
+				"templates/test.html"
+			],
+			[
+				"",
+				"tools.py"
+			],
+			[
+				"net",
+				"templates/networkdoc.html"
+			],
+			[
+				"view",
+				"views.py"
+			],
+			[
+				"app",
+				"app.py"
+			],
+			[
+				"form",
+				"forms.py"
+			],
+			[
+				"conf",
+				"Fitboard/config.py"
+			],
+			[
+				"vi",
+				"Fitboard/views.py"
+			],
+			[
+				"config",
+				"config.py"
+			],
+			[
+				"sec",
+				"secret"
+			],
+			[
+				"jay",
+				"jay.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Projects/silhouette_dev/silhouette_dev.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
