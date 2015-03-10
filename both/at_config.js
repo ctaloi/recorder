@@ -4,6 +4,12 @@ AccountsTemplates.addField({
     displayName: "Your Name"
 });
 
+AccountsTemplates.addField({
+    _id: 'AccountSid',
+    type: 'text',
+    displayName: "Account SID"
+});
+
 //Routes
 // AccountsTemplates.configureRoute('changePwd');
 // AccountsTemplates.configureRoute('enrollAccount');
