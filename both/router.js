@@ -29,7 +29,7 @@ Router.route('/api/twiml/record', { where: 'server' })
     Meteor.call('newCall', this.request.body);
   	this.response.statusCode = 200;
   	this.response.setHeader("Content-Type", "text/xml");
-    var xml = '<Response><Dial timeout="30" record="true" action="http://ctaloi.ngrok.com/api/twiml/hangup"><Sip>sip:+13155798850@68.64.80.34</Sip></Dial><Hangup/></Response>';
+    var xml = '<Response><Dial timeout="30" record="true" action="http://record.meteor.com/api/twiml/hangup"><Sip>sip:+13155798850@68.64.80.34</Sip></Dial><Hangup/></Response>';
     this.response.end(xml);
   })
   .put(function () {
