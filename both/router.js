@@ -4,16 +4,11 @@ Router.route('/', function () {
 });
 
 Router.route('/api/put/call', function () {
-
-  console.log(this.request)
-
+  // console.log(this.request)
   data = this.request.body;
   sid = this.request.body.AccountSid;
 
   userAccountId = Meteor.call('getUserAccountId', sid);
-
-  // NEED TO Check for exisiting id
-
   data.userAccountId = userAccountId
   Meteor.call('newCallRecord', data);
 
@@ -24,15 +19,17 @@ Router.route('/api/put/call', function () {
 
 }, {where: 'server'});
 
-Router.route('/api/incoming/', { where: 'server' })
+Router.route('/api/in/record/:sipToNumber/:sipToIp', { where: 'server' })
   .get(function () {
     this.response.end('Ok\n');
   })
   .post(function () {
+    console.log('----------------------')
+    console.log("SIP REQ for CALL RECORDING TO: ", this.params.sipToNumber, this.params.sipToIp);
     Meteor.call('routeIncomingCall', this.request.body);
-  	this.response.statusCode = 200;
+    this.response.statusCode = 200;
   	this.response.setHeader("Content-Type", "text/xml");
-    var xml = '<Response><Dial timeout="30" record="true" action="http://record.meteor.com/api/put/call"><Sip>sip:+13155798850@68.64.80.34</Sip></Dial><Hangup/></Response>';
+    var xml = '<Response><Dial timeout="30" record="true" action="http://ctaloi.ngrok.com/api/put/call"><Sip>sip:+'+this.params.sipToNumber+'@'+this.params.sipToIp+'</Sip></Dial><Hangup/></Response>';
     this.response.end(xml);
   })
   .put(function () {

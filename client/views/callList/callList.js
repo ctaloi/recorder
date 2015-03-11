@@ -1,5 +1,5 @@
 Template.callList.helpers({
 	callList: function () {
-		return Calls.find({});
+		return Calls.find({}, {sort: {createdAt: -1}});
 	}
 });

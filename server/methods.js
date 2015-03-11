@@ -8,11 +8,15 @@ Meteor.methods({
   getUserAccountId: function (sid) {
   	userAccount = Meteor.users.findOne({"profile.AccountSid": sid})
     if(typeof userAccount === 'undefined'){
-      console.log("Yep, No match")
-      return "No User";
+      console.log("-----WARN-------")
+      console.log("AccountSID from Twilio does not match a user account")
+      return "UNKNOWN";
     }
     else {
   	return userAccount._id;
     }
+  },
+  getCallFlow: function(callFlowId, sipTo) {
+    console.log(this);
   }
 });
