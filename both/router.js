@@ -24,12 +24,16 @@ Router.route('/api/in/record/:sipToNumber/:sipToIp', { where: 'server' })
     this.response.end('Ok\n');
   })
   .post(function () {
-    console.log('----------------------')
+    console.log('----------------------');
     console.log("SIP REQ for CALL RECORDING TO: ", this.params.sipToNumber, this.params.sipToIp);
+
+    rootUrl = Meteor.absoluteUrl();
+    console.log(rootUrl);
+
     Meteor.call('routeIncomingCall', this.request.body);
     this.response.statusCode = 200;
   	this.response.setHeader("Content-Type", "text/xml");
-    var xml = '<Response><Dial timeout="30" record="true" action="http://ctaloi.ngrok.com/api/put/call"><Sip>sip:+'+this.params.sipToNumber+'@'+this.params.sipToIp+'</Sip></Dial><Hangup/></Response>';
+    var xml = '<Response><Dial timeout="30" record="true" action="'+rootUrl+'api/put/call"><Sip>sip:+'+this.params.sipToNumber+'@'+this.params.sipToIp+'</Sip></Dial><Hangup/></Response>';
     this.response.end(xml);
   })
   .put(function () {
