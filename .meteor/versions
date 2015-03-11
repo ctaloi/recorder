@@ -45,7 +45,7 @@ minimongo@1.0.6
 mobile-status-bar@1.0.2
 mongo@1.0.11
 mrt:moment@2.8.1
-msavin:mongol@0.6.5
+msavin:mongol@0.6.4
 npm-bcrypt@0.7.7
 observe-sequence@1.0.4
 ordered-dict@1.0.2
@@ -55,7 +55,7 @@ reactive-var@1.0.4
 reload@1.1.2
 retry@1.0.2
 routepolicy@1.0.4
-semantic:ui-css@1.11.2
+semantic:ui-css@1.11.0
 service-configuration@1.0.3
 session@1.0.5
 sha@1.0.2

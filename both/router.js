@@ -3,15 +3,18 @@ Router.route('/', function () {
 	this.render('Home');
 });
 
-Router.route('/api/twiml/hangup', function () {
+Router.route('/api/put/call', function () {
+
+  console.log(this.request)
+
   data = this.request.body;
   sid = this.request.body.AccountSid;
 
-  userAccount = Meteor.call('getUserAccountId', sid);
+  userAccountId = Meteor.call('getUserAccountId', sid);
 
   // NEED TO Check for exisiting id
 
-  data.userAccountId = userAccount._id
+  data.userAccountId = userAccountId
   Meteor.call('newCallRecord', data);
 
   this.response.statusCode = 200;
@@ -21,15 +24,15 @@ Router.route('/api/twiml/hangup', function () {
 
 }, {where: 'server'});
 
-Router.route('/api/twiml/record', { where: 'server' })
+Router.route('/api/incoming/', { where: 'server' })
   .get(function () {
     this.response.end('Ok\n');
   })
   .post(function () {
-    Meteor.call('newCall', this.request.body);
+    Meteor.call('routeIncomingCall', this.request.body);
   	this.response.statusCode = 200;
   	this.response.setHeader("Content-Type", "text/xml");
-    var xml = '<Response><Dial timeout="30" record="true" action="http://record.meteor.com/api/twiml/hangup"><Sip>sip:+13155798850@68.64.80.34</Sip></Dial><Hangup/></Response>';
+    var xml = '<Response><Dial timeout="30" record="true" action="http://record.meteor.com/api/put/call"><Sip>sip:+13155798850@68.64.80.34</Sip></Dial><Hangup/></Response>';
     this.response.end(xml);
   })
   .put(function () {
