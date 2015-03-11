@@ -2,3 +2,4 @@
 config/*
 mup.json
 settings.json
+client/lib/gauges.js
