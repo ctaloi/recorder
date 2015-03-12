@@ -1,7 +1,3 @@
-Meteor.startup(function () {
-  Session.set('userId', Meteor.userId());
-});
-
 Template.registerHelper('moment', function(dateToParse){
   return moment(parseInt(dateToParse)).format("LLL");
 });
@@ -13,8 +9,11 @@ Template.registerHelper('userName', function() {
 
 Template.registerHelper('cleanSipNumber', function(sipNumber){
 	if (sipNumber.includes("sip:+")) {
-		return sipNumber.split('@')[0].split('+')[1];
+		res = sipNumber.split('@')[0].split('+')[1];
+		console.log("Changing: ", sipNumber, "To: ",  res);
 	} else {
-		return sipNumber;
+		res = sipNumber;
+		console.log("No Change Here", res)
 	}
+	return res;
 });
