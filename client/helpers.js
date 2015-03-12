@@ -13,8 +13,8 @@ Template.registerHelper('userName', function() {
 
 Template.registerHelper('cleanSipNumber', function(sipNumber){
 	if (sipNumber.includes("sip:+")) {
-		return sipNumber.split('@')[0].split('+')[1]
+		return sipNumber.split('@')[0].split('+')[1];
 	} else {
-		return sipNumber
+		return sipNumber;
 	}
 });
