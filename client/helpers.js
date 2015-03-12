@@ -10,10 +10,10 @@ Template.registerHelper('userName', function() {
 Template.registerHelper('cleanSipNumber', function(sipNumber){
 	if (sipNumber.includes("sip:+")) {
 		res = sipNumber.split('@')[0].split('+')[1];
-		console.log("Changing: ", sipNumber, "To: ",  res);
+		// console.log("Changing: ", sipNumber, "To: ",  res);
 	} else {
 		res = sipNumber;
-		console.log("No Change Here", res)
+		// console.log("No Change Here", res)
 	}
 	return res;
 });
