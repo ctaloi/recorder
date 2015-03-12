@@ -1,5 +1,5 @@
 Template.callList.helpers({
 	callList: function () {
-		return Calls.find({}, {sort: {createdAt: -1}});
+		return Calls.find({ "RecordingDuration": { $exists: true }}, {sort: {createdAt: -1}});
 	}
 });

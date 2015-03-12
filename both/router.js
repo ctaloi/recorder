@@ -8,6 +8,9 @@ Router.route('/api/put/call', function () {
   data = this.request.body;
   sid = this.request.body.AccountSid;
 
+  console.log('----------------------');
+  console.log("WRITING RECORD FOR: ", data);
+
   userAccountId = Meteor.call('getUserAccountId', sid);
   data.userAccountId = userAccountId
   Meteor.call('newCallRecord', data);
