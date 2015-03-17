@@ -12,8 +12,8 @@
 				<thead>
 					<tr>
 						<th>Date</th>
-						<th>Called Number</th>
 						<th>Calling Number</th>
+						<th>Called Number</th>
 						<th>Duration</th>
 						<th>Recording</th>
 					</tr>
@@ -22,8 +22,8 @@
 				{{#each callList}}
 					<tr>
 						<td>{{moment this.createdAt}}</td>
-						<td>{{cleanSipNumber this.Called}}</td>
 						<td>{{cleanSipNumber this.From}}</td>
+						<td>{{cleanSipNumber this.Called}}</td>
 						<td>{{fromSeconds this.RecordingDuration}}</td>
 						<td><audio src="{{this.RecordingUrl}}" preload="none" controls> </audio></td>
 
