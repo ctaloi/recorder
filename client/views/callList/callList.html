@@ -24,7 +24,7 @@
 						<td>{{moment this.createdAt}}</td>
 						<td>{{cleanSipNumber this.Called}}</td>
 						<td>{{cleanSipNumber this.From}}</td>
-						<td>{{this.RecordingDuration}}</td>
+						<td>{{fromSeconds this.RecordingDuration}}</td>
 						<td><audio src="{{this.RecordingUrl}}" preload="none" controls> </audio></td>
 
 					</tr>

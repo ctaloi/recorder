@@ -9,7 +9,8 @@ Template.registerHelper('userName', function() {
 
 Template.registerHelper('cleanSipNumber', function(sipNumber){
 	if (sipNumber.includes("sip:+")) {
-		res = sipNumber.split('@')[0].split('+')[1];
+		phone = sipNumber.split('@')[0].split('+')[1];
+		res = "(" + phone.substr(1, 3) + ") " + phone.substr(3, 3) + '-' + phone.substr(6,4);
 		// console.log("Changing: ", sipNumber, "To: ",  res);
 	} else {
 		res = sipNumber;
@@ -17,3 +18,10 @@ Template.registerHelper('cleanSipNumber', function(sipNumber){
 	}
 	return res;
 });
+
+
+Template.registerHelper('fromSeconds', function(sec){
+	var d=new Date(0,0,0);
+	d.setSeconds(+sec);
+	return (d.getHours() ? d.getHours()+':' : '')+d.getMinutes()+':'+d.getSeconds();
+	});
