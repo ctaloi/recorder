@@ -1,37 +1,40 @@
 <template name="callList">
-<main class="ui page grid padded">
-	<div class="row">
-	    <div class="center aligned column">
-	        <h1 class="ui header">{{userName}}'s Call Recordings</h1>
-	    </div>
-	</div>
 
-	<div class="row">
-		<div class="column">
-			<table class="ui large blue table">
-				<thead>
-					<tr>
-						<th>Date</th>
-						<th>Calling Number</th>
-						<th>Called Number</th>
-						<th>Duration</th>
-						<th>Recording</th>
-					</tr>
-				</thead>
-				<tbody>
-				{{#each callList}}
-					<tr>
-						<td>{{moment this.createdAt}}</td>
-						<td>{{cleanSipNumber this.From}}</td>
-						<td>{{cleanSipNumber this.Called}}</td>
-						<td>{{fromSeconds this.RecordingDuration}}</td>
-						<td><audio src="{{this.RecordingUrl}}" preload="none" controls> </audio></td>
-
-					</tr>
-				{{/each}}
-				</tbody>
-				</table>
+<div class="container">
+	<div class="section">
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<h4 class="header center orange-text">{{userName}}'s Call Recordings</h4>
+				<br><br>
+			</div>
 		</div>
 	</div>
-    </main>
+</div>
+<div class="container ">
+		<table class="bordered">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Date</th>
+					<th>Calling Number</th>
+					<th>Called Number</th>
+					<th>Duration</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each callList}}
+				<tr class="{{selected.myClass}}">
+					<td><a class="{{selected.playerState}} btn-floating waves-effect waves-light btn" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
+					<td>{{moment this.createdAt}}</td>
+					<td>{{cleanSipNumber this.From}}</td>
+					<td>{{cleanSipNumber this.Called}}</td>
+					<td>{{fromSeconds this.RecordingDuration}}</td>
+				</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+
+
+<!-- <audio src="{{this.RecordingUrl}}" preload="none" controls> </audio> -->
 </template>

@@ -13,3 +13,7 @@ body {
 .content {
   padding-top: 70px;
 }
+
+.selected{
+    background-color: yellow;
+}

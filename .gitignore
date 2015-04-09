@@ -1,5 +1,6 @@
 *sublime*
 config/*
+env.sh
 mup.json
 settings.json
 client/lib/gauges.js

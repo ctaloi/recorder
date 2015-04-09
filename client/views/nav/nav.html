@@ -1,8 +1,14 @@
 <template name="nav">
-<nav class="ui large menu">
-<a class="item">networkWCS</a>
-	<div class="right menu">
-      {{> atNavButton}}
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">{{> atNavButton}}</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
-</nav>
+  </nav>
 </template>
