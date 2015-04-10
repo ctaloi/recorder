@@ -22,6 +22,7 @@ AccountsTemplates.configureRoute('forgotPwd');
 // Options
 AccountsTemplates.configure({
     //defaultLayout: 'emptyLayout',
+    // forbidClientAccountCreation: true,
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,

@@ -1,15 +1,11 @@
 <template name="layout">
 
-{{#if currentUser}}
-    {{>nav}}
-{{/if}}
+{{>nav}}
 
 <main>
 {{>yield}}
 </main>
 
-{{#if currentUser}}
-	{{>footer}}
-{{/if}}
+{{>footer}}
 
 </template>
