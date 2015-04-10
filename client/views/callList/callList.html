@@ -4,14 +4,15 @@
 	<div class="section">
 		<div class="section no-pad-bot" id="index-banner">
 			<div class="container">
-				<h4 class="header center orange-text">{{userName}}'s Call Recordings</h4>
-				<br><br>
+				<h4 class="header center blue-text thin">{{userName}}'s Call Recordings</h4>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="container ">
-		<table class="bordered">
+
+<div class="container">
+<div class="card-panel">
+		<table class="striped">
 			<thead>
 				<tr>
 					<th></th>
@@ -24,7 +25,7 @@
 			<tbody>
 				{{#each callList}}
 				<tr class="{{selected.myClass}}">
-					<td><a class="{{selected.playerState}} btn-floating waves-effect waves-light btn" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
+					<td><a class="{{selected.playerState}} btn-floating btn" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
 					<td>{{moment this.createdAt}}</td>
 					<td>{{cleanSipNumber this.From}}</td>
 					<td>{{cleanSipNumber this.Called}}</td>
@@ -34,7 +35,5 @@
 			</tbody>
 		</table>
 	</div>
-
-
-<!-- <audio src="{{this.RecordingUrl}}" preload="none" controls> </audio> -->
+</div>
 </template>

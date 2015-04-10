@@ -4,8 +4,12 @@
     {{>nav}}
 {{/if}}
 
-
+<main>
 {{>yield}}
+</main>
 
+{{#if currentUser}}
+	{{>footer}}
+{{/if}}
 
 </template>

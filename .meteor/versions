@@ -57,6 +57,7 @@ msavin:mongol@1.0.20
 npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
 ordered-dict@1.0.3
+ovcharik:howler@1.1.26
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5

@@ -1,19 +1,14 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin: 0px;
-  padding: 0px;
-  color: #555555;
-  min-width: 320px;
-}
+	background: #F8F8F8 !important;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-.content {
-  padding-top: 70px;
-}
+main {
+    flex: 1 0 auto;
+	}
 
 .selected{
-    background-color: yellow;
+    background-color: #e3f2fd !important;
 }

@@ -1,8 +1,7 @@
-
 Template.callList.rendered = function () {
 	Session.setDefault({
-		"selected": "null",
-		"playing": false
+		"playing": false,
+		"selected": null,
 	});
 };
 
@@ -10,15 +9,12 @@ Template.callList.helpers({
 	callList: function () {
 		return Calls.find({ "RecordingDuration": { $exists: true }}, {sort: {createdAt: -1}});
 	},
-	log: function () {
-		console.log(this);
-	},
     selected: function () {
     	var selected = Session.get("selected");
     	var lineId = this._id;
 
-    	var playing = "blue mdi-av-play-arrow";
-    	var stopped = "red mdi-av-stop";
+    	var playing = "white grey-text mdi-av-play-arrow";
+    	var stopped = "blue mdi-av-stop";
 
     	// If our line is selected we highlight the line and set the class
     	if (lineId == selected) {
@@ -31,52 +27,44 @@ Template.callList.helpers({
     		return {
     			"statusIcon": playing,
     			"playerState": "play",
-    			"myClass": "not-selected"
+    			"myClass": ""
     		}
 		}
     }
 });
 
+var startPlay = function (resource, id) {
+	myAudio = new Audio(resource);
+	myAudio.addEventListener('ended', stopPlay);
+	myAudio.addEventListener('play',
+		Session.set({
+			"playing": true,
+			"selected": id,
+		}))
+	myAudio.play();
+};
+
+var stopPlay = function() {
+	Session.set({
+		"playing": false,
+		"selected": null,
+	});
+};
 
 Template.callList.events({
-	'ended audio': function () {
-		console.log("Ended");
-	},
-	'playing': function () {
-		Materialize.toast("Woot");
-	},
 	'click a.play': function (event) {
 		event.preventDefault();
-
+		// If something is playing already - pause it
 		if (Session.get("playing")) {
-			callRecording.pause();
-			Session.set({
-				"playing": false,
-				"selected": "null"
-			});
-			callRecording = new Audio(event.currentTarget.href)
-			callRecording.play();
-			Session.set({
-				"playing": true,
-				"selected": this._id
-			});
-		} else {
-			Session.set({
-				"playing": true,
-				"selected": this._id
-			});
-			callRecording = new Audio(event.currentTarget.href)
-			// console.log(callRecording)
-			callRecording.play();
-			};
+			myAudio.pause();
+			stopPlay();
+		}
+		resource = event.currentTarget.href
+		startPlay(resource, this._id);
 	},
 	'click a.stop': function (event) {
 		event.preventDefault();
-
-		Session.set({
-			"playing": false,
-			"selected": "null"
-		});
-		callRecording.pause();
+		myAudio.pause();
+		stopPlay();
 	}
 });
