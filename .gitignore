@@ -2,6 +2,3 @@
 config/*
 env.sh
 mup.json
-settings.json
-client/lib/gauges.js
-client/lib/ga.js
