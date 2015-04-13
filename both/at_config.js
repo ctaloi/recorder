@@ -7,13 +7,14 @@ AccountsTemplates.addField({
 AccountsTemplates.addField({
     _id: 'AccountSid',
     type: 'text',
-    displayName: "Account SID"
+    displayName: "Account SID",
+    required: true
 });
 
 //Routes
 // AccountsTemplates.configureRoute('changePwd');
 // AccountsTemplates.configureRoute('enrollAccount');
-AccountsTemplates.configureRoute('forgotPwd');
+// AccountsTemplates.configureRoute('forgotPwd');
 // AccountsTemplates.configureRoute('resetPwd');
 // AccountsTemplates.configureRoute('signIn');
 // AccountsTemplates.configureRoute('signUp');
@@ -23,7 +24,7 @@ AccountsTemplates.configureRoute('forgotPwd');
 AccountsTemplates.configure({
     //defaultLayout: 'emptyLayout',
     // forbidClientAccountCreation: true,
-    showForgotPasswordLink: true,
+    // showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
     sendVerificationEmail: false,

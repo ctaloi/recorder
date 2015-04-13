@@ -11,8 +11,8 @@ Router.route('/api/put/call', function () {
   console.log('----------------------');
   console.log("WRITING RECORD FOR: ", data);
 
-  userAccountId = Meteor.call('getUserAccountId', sid);
-  data.userAccountId = userAccountId
+  // userAccountId = Meteor.call('getUserAccountId', sid);
+  // data.userAccountId = userAccountId
   Meteor.call('newCallRecord', data);
 
   this.response.statusCode = 200;
