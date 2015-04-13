@@ -8,7 +8,10 @@ Template.registerHelper('userName', function() {
 });
 
 Template.registerHelper('cleanSipNumber', function(sipNumber){
-	if (sipNumber.length > 20) {
+	if (sipNumber === 'sip:Restricted@68.64.80.34') {
+		res = "Restricted"
+	}
+	else if (sipNumber.length > 20) {
 		phone = sipNumber.split('@')[0].split('+')[1];
 		res = "(" + phone.substr(1, 3) + ") " + phone.substr(4, 3) + '-' + phone.substr(7,4);
 		// console.log("Changing: ", sipNumber, "To: ",  res);

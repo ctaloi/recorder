@@ -34,6 +34,7 @@ Template.callList.helpers({
 });
 
 var startPlay = function (resource, id) {
+	analytics.track("Played Audio")
 	myAudio = new Audio(resource);
 	myAudio.addEventListener('ended', stopPlay);
 	myAudio.addEventListener('play',
@@ -45,6 +46,7 @@ var startPlay = function (resource, id) {
 };
 
 var stopPlay = function() {
+	analytics.track("Stopped Audio")
 	Session.set({
 		"playing": false,
 		"selected": null,
