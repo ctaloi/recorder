@@ -1,7 +1,27 @@
+// ----------------------------------------------
+// client routes
+// ----------------------------------------------
+
 Router.route('/', function () {
   this.layout('layout');
 	this.render('Home');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------
+// server routes
+// ----------------------------------------------
 
 Router.route('/api/put/call', function () {
   // console.log(this.request)

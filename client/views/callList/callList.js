@@ -1,22 +1,20 @@
-// today = 1428984000000
-// yesterday = today - 86400000
-// Calls.find({createdAt: {$gte:yesterday, $lt:today}}).fetch()
 Template.callList.helpers({
 	callList: function () {
-		var date1 = new Date(Session.get("date1")).valueOf();
-		var date2 = new Date(Session.get("date2")).valueOf();
+		var dateRange = Session.get("dateRange")
 
-		// var filterDate = Session.get("filterDate");
-		// var filterPrevDay = filterDate - 86400000;
-		// return Calls.find({ "RecordingDuration": { $exists: true }, }, {sort: {createdAt: -1}});
-		// console.log("Greater Then: " + date2 + " and less then: " + date1);
+		// var start = moment(dateRange.startDage).endOf('day').toDate();
+		var startDate = moment(dateRange.startDate).toDate();
+		var endDate = moment(dateRange.endDate).toDate();
 
-		// callList engOrders = _.sortBy(query, "date_modified").reverse();
-
+		var query = Calls.find({createdAt: {$gt:startDate} }).fetch()
+		// query = Calls.find({}).fetch()
+		calls = _.sortBy(query, "createdAt").reverse();		
+				
 		return {
-			calls: Calls.find({createdAt: {$gt:date2, $lte:date1}}, {sort: {createdAt: -1}}),
-			"date1": moment(date1).format(),
-			"date2": moment(date2).format()
+			"calls": calls,
+			"date1": startDate,
+			"date2": endDate
+		
 		}
 	},
 
