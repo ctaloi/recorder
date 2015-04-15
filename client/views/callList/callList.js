@@ -1,12 +1,11 @@
 Template.callList.helpers({
 	callList: function () {
+
 		var dateRange = Session.get("dateRange")
+		var startDate = dateRange.startDate.valueOf();
+		var endDate = dateRange.endDate.valueOf();
 
-		// var start = moment(dateRange.startDage).endOf('day').toDate();
-		var startDate = moment(dateRange.startDate).toDate();
-		var endDate = moment(dateRange.endDate).toDate();
-
-		var query = Calls.find({createdAt: {$gt:startDate} }).fetch()
+		var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }).fetch()
 		// query = Calls.find({}).fetch()
 		calls = _.sortBy(query, "createdAt").reverse();		
 				
