@@ -28,15 +28,15 @@ Template.sidebar.events({
 	'change .datepicker1': function (event) {
 
 		var myDate1 = event.currentTarget.value.valueOf();
-		var myDate2 = moment(myDate1).subtract(1, 'days').format('YYYY-MM-DD');
+		var myDate2 = moment(myDate1).format('YYYY-MM-DD');
 
-		console.log(myDate1)
-		console.log(myDate2)
+		startDate = moment(myDate1).add(1, 'days').format('YYYY-MM-DD')
+		stoptDate = moment(myDate2).subtract(1, 'days').format('YYYY-MM-DD')
 
 		Session.set(
 			{
-				date1: myDate1,
-				date2: myDate2
+				date1: startDate,
+				date2: stoptDate
 			}
 		)
 	}

@@ -1,5 +1,8 @@
 <template name="callList">
 <div class="card-panel">
+		{{#with callList}}
+			<p>Range {{date1}} - {{date2}}</p>
+		{{/with}}
 		<table class="striped">
 			<thead>
 				<tr>
@@ -11,7 +14,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				{{#each callList}}
+				{{#each callList.calls}}
 				<tr class="{{selected.myClass}}">
 					<td><a class="{{selected.playerState}} btn-floating btn" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
 					<td>{{moment this.createdAt}}</td>
