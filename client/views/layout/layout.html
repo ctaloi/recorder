@@ -3,8 +3,21 @@
 {{>nav}}
 
 <main>
-{{> status}}
-{{>yield}}
+
+{{>status}}
+
+<div class="row">
+{{#if currentUser}}
+	<div class="col s12 m4 l2">
+		{{>sidebar}}
+	</div>
+{{/if}}
+
+	<div class="col s12 m9 l10">
+		{{>yield}}
+	</div>
+</div>
+
 </main>
 
 {{>footer}}

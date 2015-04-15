@@ -6,9 +6,9 @@ Meteor.publish("Calls", function () {
 		return [];
     }
     if (this.userId === adminUser) {
-    	return Calls.find({});
+    	return Calls.find({"RecordingDuration": { $exists: true }});
     }
 	currentUser = this.userId;
 	currentUserSid = Meteor.users.findOne({_id: currentUser})["profile"]["AccountSid"]
-	return Calls.find({"AccountSid": currentUserSid})
+	return Calls.find({"AccountSid": currentUserSid}, {"RecordingDuration": { $exists: true } })
 });
