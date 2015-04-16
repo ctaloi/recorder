@@ -18,5 +18,17 @@ Meteor.methods({
   },
   getCallFlow: function(callFlowId, sipTo) {
     console.log(this);
+  },
+  addNote: function (id, text) {
+    if (! Meteor.userId()) {
+      throw new Meteor.Error("not-authorized");
+    }
+    Calls.update(id, { $set: { note: text} });
+  },
+  deleteTask: function (taskId) {
+    Calls.remove(taskId);
+  },
+  setChecked: function (taskId, setChecked) {
+    Calls.update(taskId, { $set: { checked: setChecked} });
   }
 });

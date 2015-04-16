@@ -1,31 +1,54 @@
 <template name="callList">
-    <div class="card-panel">
-        <table class="bordered">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Date</th>
-                    <th>Calling Number</th>
-                    <th>Called Number</th>
-                    <th>Duration</th>
-                    <th>Flag</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{#each callList.calls}}
-                <tr class="{{selected.myClass}}">
-                    <td><a class="{{selected.playerState}} btn-floating white" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
-                    <td>{{moment this.createdAt}}</td>
-                    <td>{{cleanSipNumber this.From}}</td>
-                    <td>{{cleanSipNumber this.Called}}</td>
-                    <td>{{fromSeconds this.RecordingDuration}}</td>
-                    <td>
-                        <input type="checkbox" id="{{this._id}}" />
-                        <label for="{{this._id}}"> </label>
-                    </td>
-                </tr>
-                {{/each}}
-            </tbody>
-        </table>
-    </div>
+<div class="card-panel">
+    <table class="">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Date</th>
+                <th>Calling Number</th>
+                <th>Called Number</th>
+                <th>Duration</th>
+                <th>Flag</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each callList.calls}}
+            <tr class="{{selected.myClass}}">
+                <td><a class="{{selected.playerState}} btn-floating white" href="{{this.RecordingUrl}}"><i class="{{selected.statusIcon}} left"></i></a></td>
+                <td>{{moment this.createdAt}}</td>
+                <td>{{cleanSipNumber this.From}}</td>
+                <td>{{cleanSipNumber this.Called}}</td>
+                <td>{{fromSeconds this.RecordingDuration}}</td>
+                <td>
+                    <input type="checkbox" id="{{this._id}}" />
+                    <label for="{{this._id}}"> </label>
+                </td>
+                <td>
+                    <a class="btn-flat note">
+                        <i class="blue-text mdi-action-note-add"> </i>
+                    </a>
+                </td>
+             </tr>
+
+            {{#if note}}
+            <tr class="{{selected.myClass}}">
+                <td colspan="7">
+                    {{note}}
+                    <form class="new-note"> <input type="text" name="note" placeholder=""/> </form>
+                </td>
+            </tr>
+            {{/if}}
+
+            <!--             <tr>
+                <td colspan="6">
+                    <form class="new-note">
+                        <input type="text" name="note" placeholder=""/>
+                    </form>
+                </td>
+            </tr>
+            -->            {{/each}}
+        </tbody>
+    </table>
+</div>
 </template>

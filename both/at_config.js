@@ -23,7 +23,7 @@ AccountsTemplates.addField({
 // Options
 AccountsTemplates.configure({
     //defaultLayout: 'emptyLayout',
-    // forbidClientAccountCreation: true,
+    forbidClientAccountCreation: true,
     // showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,

@@ -1,19 +1,25 @@
 Template.callList.helpers({
 	callList: function () {
 
-		var dateRange = Session.get("dateRange")
+		var dateRange = Session.get("dateRange");
+		var activeFilter = Session.get("activeFilter");
 		var startDate = dateRange.startDate.valueOf();
 		var endDate = dateRange.endDate.valueOf();
 
-		var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }).fetch()
+		if (activeFilter === "date") {
+			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }).fetch()
+		} else {
+			var query = Calls.find({}).fetch()
+		};
+
 		// query = Calls.find({}).fetch()
-		calls = _.sortBy(query, "createdAt").reverse();		
-				
+		calls = _.sortBy(query, "createdAt").reverse();
+
 		return {
 			"calls": calls,
 			"date1": startDate,
 			"date2": endDate
-		
+
 		}
 	},
 
@@ -72,9 +78,39 @@ Template.callList.events({
 		resource = event.currentTarget.href
 		startPlay(resource, this._id);
 	},
+
 	'click a.stop': function (event) {
 		event.preventDefault();
 		myAudio.pause();
 		stopPlay();
-	}
+	},
+	'click a.note': function (event) {
+		event.preventDefault();
+		var note = ' ';
+		Meteor.call('addNote', this._id, note);
+		console.log("ID: " + this._id)
+	},
+	'submit .new-note': function (event) {
+		event.preventDefault();
+		var note = event.target.note.value;
+		Materialize.toast(note, 2000);
+
+		console.log("Note: " + note)
+		console.log("ID: " + this._id)
+
+		// Set note to input text
+		Meteor.call('addNote', this._id, note);
+
+		// Reset form
+		event.target.note.value = "";
+		return false;
+		}
+
+
+    // Clear form
+
+
+    // Prevent default form submit
+
+
 });

@@ -5,7 +5,7 @@ var getDateRange = function (qDate) {
 	var startDate = new Date(qDate);
 	startDate.setSeconds(0);
 	startDate.setHours(0);
-	startDate.setMinutes(0);	
+	startDate.setMinutes(0);
 
 	var dateMidnight = new Date(startDate);
 	dateMidnight.setHours(23);
@@ -35,7 +35,8 @@ Template.sidebar.events({
 		range = getDateRange(myDate1)
 
 		Session.set({
-			"dateRange": range
+			"dateRange": range,
+			"activeFilter": "date"
 		})
 	}
 });
