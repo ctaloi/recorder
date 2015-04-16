@@ -1,11 +1,26 @@
 <template name="sidebar">
-<div class="sidebar">
-<div class="card-panel">
+    <div class="sidebar">
 
-<form class="new-task">
- 		<input id="datepicker1" name="searchdate1" type="date" class="datepicker1" label="Filter Date" placeholder="">
-</form>
-	    <button type="button" class="waves-effect waves-teal btn-flat"><i class="mdi-content-add"></i>BUTTON</button>
-</div>
-</div>
+<!--     <div class="card-panel">
+    	<p class="center blue-text flow-text">{{userName}}'s Call Recordings</p>
+    </div>
+ -->        <div class="card-panel">
+            <!-- <span class="side-topic">Filters</span> -->
+            <p>
+                <input id="datepicker1" name="searchdate1" type="date" class="datepicker1" label="Filter Date" placeholder="Date">
+            </p>
+            <p>
+                <input type="checkbox" id="flagged" />
+                <label for="flagged" class="red-text">Flagged</label>
+            </p>
+            <p>
+                <input type="checkbox" id="noted" />
+                <label for="noted" class="blue-text">Noted</label>
+            </p>
+            <p>
+                <input type="checkbox" id="played" />
+                <label for="played">Played</label>
+            </p>
+        </div>
+    </div>
 </template>

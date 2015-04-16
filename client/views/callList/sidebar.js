@@ -18,23 +18,7 @@ var getDateRange = function (qDate) {
 	}
 }
 
-
-Template.sidebar.helpers({
-	placeholder: function () {
-		return moment(Session.get("date1")).subtract(1, 'days').format('MMM D, YYYY');
-	}
-});
-
-
 Template.sidebar.onRendered(function  () {
-	// var today = moment().add(1, 'days').format('YYYY-MM-DD');
-	// var yesterday = moment(today).subtract(1, 'days').format('YYYY-MM-DD')
-
-	// Session.set({
-	// 	date1: today,
-	// 	date2: yesterday
-	// })
-
 	this.$('.datepicker1').pickadate({
 		format: 'mmmm d, yyyy',
 		closeOnSelect: true,

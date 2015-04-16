@@ -29,3 +29,71 @@ main {
   padding: 0px 0px;
   margin-bottom: 0px;
 }
+
+.side-topic {
+  color: #ff9800;
+  font-weight: 300;
+  text-transform: capitalize !important;
+}
+
+[type="checkbox"]:checked + label:before {
+   border-right: 2px solid #9e9e9e !important;
+   border-bottom: 2px solid #9e9e9e !important;
+}
+
+.picker__date-display {
+  background-color: #ff9800 !important;
+}
+
+.picker__weekday-display {
+  background-color: #ff9800 !important;
+}
+
+.picker__day.picker__day--today {
+  color: #ff9800; }
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color: #ff9800;
+  }
+
+.picker__day--selected.picker__day--outfocus, .picker__day--selected:hover.picker__day--outfocus, .picker--focused .picker__day--selected.picker__day--outfocus {
+  background-color: #a1ded8; }
+
+.picker__footer {
+  text-align: right;
+  padding: 5px 10px; }
+
+.picker__close, .picker__today {
+  color: #ff9800; }
+
+button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+  background-color: #ffe0b2; }
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 15px 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  transition: all .5s;
+}
+
