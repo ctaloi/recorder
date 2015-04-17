@@ -30,8 +30,13 @@ main {
   margin-bottom: 0px;
 }
 
+.side-button {
+  width: 100%;
+}
+
+
 .side-topic {
-  color: #ff9800;
+  color: #ef5350;
   font-weight: 300;
   text-transform: capitalize !important;
 }
@@ -42,18 +47,18 @@ main {
 }
 
 .picker__date-display {
-  background-color: #ff9800 !important;
+  background-color: #ef5350 !important;
 }
 
 .picker__weekday-display {
-  background-color: #ff9800 !important;
+  background-color: #ef5350 !important;
 }
 
 .picker__day.picker__day--today {
-  color: #ff9800; }
+  color: #ef5350; }
 
 .picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
-  background-color: #ff9800;
+  background-color: #ef5350;
   }
 
 .picker__day--selected.picker__day--outfocus, .picker__day--selected:hover.picker__day--outfocus, .picker--focused .picker__day--selected.picker__day--outfocus {
@@ -64,7 +69,7 @@ main {
   padding: 5px 10px; }
 
 .picker__close, .picker__today {
-  color: #ff9800; }
+  color: #ef5350; }
 
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #ffe0b2; }

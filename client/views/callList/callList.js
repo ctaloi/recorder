@@ -2,23 +2,29 @@ Template.callList.helpers({
 	callList: function () {
 
 		var dateRange = Session.get("dateRange");
-		var activeFilter = Session.get("activeFilter");
-		var startDate = dateRange.startDate.valueOf();
-		var endDate = dateRange.endDate.valueOf();
+		var dateFilter = Session.get("dateFilter");
+		var filterFlag = Session.get("filterFlag");
 
-		if (activeFilter) {
-			Materialize.toast("Active Filter is True")
-			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }).fetch()
+		if (dateFilter) {
+			// If date filter is true then
+			var startDate = dateRange.startDate.valueOf();
+			var endDate = dateRange.endDate.valueOf();
+			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }, {sort:{createdAt: -1} } )
+			if (filterFlag) {
+				// if date filter and filter flag are true then
+				var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate}, "checked": true }, {sort:{createdAt: -1} } )
+			}
+			return {"calls": query}
+
 		} else {
-			Materialize.toast("Active Filter is False")
-			var query = Calls.find({}).fetch()
-		};
-
-		// query = Calls.find({}).fetch()
-		calls = _.sortBy(query, "createdAt").reverse();
-
-		return {
-			"calls": calls
+			// if date filter is false and filter flag is true
+			if (filterFlag) {
+				var query = Calls.find({"checked": true},{sort:{createdAt: -1} })
+				return {"calls": query}
+			} else {
+				var query = Calls.find({},{sort:{createdAt: -1} })
+				return {"calls": query}
+			}
 		}
 	},
 
@@ -83,7 +89,7 @@ Template.callList.events({
 		myAudio.pause();
 		stopPlay();
 	},
-	 "click a.flag": function () {	 	
-	 	Meteor.call("setChecked", this._id, ! this.checked);	 	
+	 "click a.flag": function () {
+	 	Meteor.call("setChecked", this._id, ! this.checked);
 	 }
 });

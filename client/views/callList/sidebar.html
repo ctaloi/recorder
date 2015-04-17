@@ -1,18 +1,8 @@
 <template name="sidebar">
     <div class="sidebar">
-
-<!--     <div class="card-panel">
-    	<p class="center blue-text flow-text">{{userName}}'s Call Recordings</p>
-    </div>
- -->        <div class="card-panel">
-            <!-- <span class="side-topic">Filters</span> -->
-            <p>
-                <input id="datepicker1" name="searchdate1" type="date" class="datepicker1" label="Filter Date" placeholder="Date">
-            </p>
-            <p>
-                <input type="checkbox" id="flagged" />
-                <label for="flagged" class="red-text">Flagged</label>
-            </p>
+        <div class="card-panel">
+            <input id="datepicker1" name="searchdate1" type="date" class="datepicker1" label="Filter Date" placeholder="Date">
+            <button type="button" class="toggle-flag btn {{#if filterFlag}}red{{else}}grey{{/if}} side-button">Flagged </button>
         </div>
     </div>
 </template>
