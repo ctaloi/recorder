@@ -64,5 +64,8 @@ Template.sidebar.events({
 Template.sidebar.helpers({
     filterFlag: function() {
         return Session.get("filterFlag");
+    },
+    callCount: function() {
+    	return Session.get("callCount");
     }
 });
