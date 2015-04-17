@@ -6,9 +6,11 @@ Template.callList.helpers({
 		var startDate = dateRange.startDate.valueOf();
 		var endDate = dateRange.endDate.valueOf();
 
-		if (activeFilter === "date") {
+		if (activeFilter) {
+			Materialize.toast("Active Filter is True")
 			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }).fetch()
 		} else {
+			Materialize.toast("Active Filter is False")
 			var query = Calls.find({}).fetch()
 		};
 
@@ -16,10 +18,7 @@ Template.callList.helpers({
 		calls = _.sortBy(query, "createdAt").reverse();
 
 		return {
-			"calls": calls,
-			"date1": startDate,
-			"date2": endDate
-
+			"calls": calls
 		}
 	},
 
@@ -84,33 +83,7 @@ Template.callList.events({
 		myAudio.pause();
 		stopPlay();
 	},
-	'click a.note': function (event) {
-		event.preventDefault();
-		var note = ' ';
-		Meteor.call('addNote', this._id, note);
-		console.log("ID: " + this._id)
-	},
-	'submit .new-note': function (event) {
-		event.preventDefault();
-		var note = event.target.note.value;
-		Materialize.toast(note, 2000);
-
-		console.log("Note: " + note)
-		console.log("ID: " + this._id)
-
-		// Set note to input text
-		Meteor.call('addNote', this._id, note);
-
-		// Reset form
-		event.target.note.value = "";
-		return false;
-		}
-
-
-    // Clear form
-
-
-    // Prevent default form submit
-
-
+	 "click a.flag": function () {	 	
+	 	Meteor.call("setChecked", this._id, ! this.checked);	 	
+	 }
 });

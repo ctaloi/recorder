@@ -36,7 +36,7 @@ Template.sidebar.events({
 
 		Session.set({
 			"dateRange": range,
-			"activeFilter": "date"
+			"activeFilter": true
 		})
 	}
 });
