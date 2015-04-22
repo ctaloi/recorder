@@ -13,5 +13,5 @@ Meteor.publish("Calls", function () {
 	return Calls.find({
 		"AccountSid": currentUserSid,
 		"RecordingDuration": { $exists: true },
-		"DialCallStatus": "completed" }, {limit:200})
+		"DialCallStatus": "completed" }, {limit:1000})
 });

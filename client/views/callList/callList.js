@@ -9,7 +9,8 @@ Template.callList.helpers({
 			// If date filter is true then
 			var startDate = dateRange.startDate.valueOf();
 			var endDate = dateRange.endDate.valueOf();
-			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate} }, {sort:{createdAt: -1} } )
+			var query = Calls.find({
+				createdAt: {$gt:startDate, $lte:endDate}}, {sort:{createdAt: -1} } )
 			Session.set({"callCount": query.count()})
 
 			if (filterFlag) {
@@ -30,7 +31,8 @@ Template.callList.helpers({
 					"calls": query
 				}
 			} else {
-				var query = Calls.find({},{sort:{createdAt: -1} })
+				var query = Calls.find({},{
+					sort:{createdAt: -1}, limit:25 })
 				Session.set({"callCount": query.count()})
 				return {
 					"calls": query
