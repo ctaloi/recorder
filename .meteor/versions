@@ -59,7 +59,7 @@ msavin:jetsetter@1.0.11
 msavin:mongol@1.0.22
 npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
-okgrow:analytics@0.2.0
+okgrow:analytics@0.2.3
 ordered-dict@1.0.3
 random@1.0.3
 reactive-dict@1.1.0
@@ -80,7 +80,7 @@ tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
-useraccounts:core@1.8.1
-useraccounts:materialize@1.8.1
+useraccounts:core@1.9.1
+useraccounts:materialize@1.9.1
 webapp@1.2.0
 webapp-hashing@1.0.3
