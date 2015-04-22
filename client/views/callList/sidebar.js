@@ -36,7 +36,10 @@ Template.sidebar.events({
 
         // If empty tells us the user selected clear (no date)
         if (_.isEmpty(myDate1)) {
-        	Session.set({"dateFilter": false})
+        	Session.set({
+                "dateFilter": false,
+                "dateRange": null
+            })
         } else {
         	range = getDateRange(myDate1)
         	Session.set({

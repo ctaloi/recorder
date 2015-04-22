@@ -1,9 +1,9 @@
 <template name="callList">
+{{#if callsLoaded}}
     <div class="card-panel">
         <table class="">
             <thead>
                 <tr>
-                    <th></th>
                     <th></th>
                     <th>Date</th>
                     <th>Calling Number</th>
@@ -27,4 +27,7 @@
             </tbody>
         </table>
     </div>
+{{else}}
+    {{>spinner}}
+{{/if}}
 </template>

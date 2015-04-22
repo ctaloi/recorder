@@ -10,8 +10,11 @@ Meteor.publish("Calls", function () {
     }
 	currentUser = this.userId;
 	currentUserSid = Meteor.users.findOne({_id: currentUser})["profile"]["AccountSid"]
+
 	return Calls.find({
 		"AccountSid": currentUserSid,
 		"RecordingDuration": { $exists: true },
-		"DialCallStatus": "completed" }, {limit:1000})
+		"DialCallStatus": "completed"
+		},
+		{ sort:{createdAt: -1}, limit:500 })
 });

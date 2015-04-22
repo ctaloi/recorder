@@ -1,4 +1,7 @@
 Template.callList.helpers({
+	callsLoaded: function() {
+		return Session.get("callsLoaded");
+	},
 	callList: function () {
 
 		var dateRange = Session.get("dateRange");
@@ -9,13 +12,13 @@ Template.callList.helpers({
 			// If date filter is true then
 			var startDate = dateRange.startDate.valueOf();
 			var endDate = dateRange.endDate.valueOf();
-			var query = Calls.find({
-				createdAt: {$gt:startDate, $lte:endDate}}, {sort:{createdAt: -1} } )
+
+			var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate}})
 			Session.set({"callCount": query.count()})
 
 			if (filterFlag) {
 				// if date filter and filter flag are true then
-				var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate}, "checked": true }, {sort:{createdAt: -1} } )
+				var query = Calls.find({createdAt: {$gt:startDate, $lte:endDate}, "checked": true })
 				Session.set({"callCount": query.count()})
 			}
 			return {
@@ -25,14 +28,13 @@ Template.callList.helpers({
 		} else {
 			// if date filter is false and filter flag is true
 			if (filterFlag) {
-				var query = Calls.find({"checked": true},{sort:{createdAt: -1} })
+				var query = Calls.find({"checked": true})
 				Session.set({"callCount": query.count()})
 				return {
 					"calls": query
 				}
 			} else {
-				var query = Calls.find({},{
-					sort:{createdAt: -1}, limit:25 })
+				var query = Calls.find({},{limit:25 })
 				Session.set({"callCount": query.count()})
 				return {
 					"calls": query
